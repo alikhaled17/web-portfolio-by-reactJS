@@ -1,0 +1,35 @@
+.about {
+  background-image: linear-gradient(mistyrose, rgba(255, 0, 0, 0));
+  padding: 80px 0 0 0 !important;
+  margin: 80px 0 0 0 !important;
+}
+
+.about h2 {
+  opacity: 0.8;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.about h2::after {
+  content: "";
+  display: block;
+  margin: 8px 0 0 8px;
+  width: 30px;
+  border: 1px solid #000;
+  opacity: 0.8;
+}
+
+.about p {
+  padding: 0 20px 0 0;
+}
+
+.btn-custom {
+  color: #dc3545 !important;
+  background-color: #fff !important;
+  border-color: #dc3545 !important;
+}
+
+.btn-custom:hover {
+  color: #fff !important;
+  background-color: #dc3545 !important;
+}

@@ -1,0 +1,33 @@
+.skils {
+  margin-top: 80px;
+  padding: 30px 50px;
+}
+
+.skils h1 {
+  opacity: 0.8;
+}
+
+.skils p {
+  width: 70%;
+}
+.list-skils {
+  padding: 20px 25px;
+}
+
+.list-skils ul {
+  list-style: none;
+  padding: 25px 0 0 25px;
+}
+
+.list-skils h5 {
+  opacity: 0.8;
+}
+
+.list-skils h3::after {
+  content: "";
+  display: block;
+  margin: 8px 0 0 8px;
+  width: 30px;
+  border: 1px solid #000;
+  opacity: 0.8;
+}

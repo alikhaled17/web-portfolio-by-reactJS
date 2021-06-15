@@ -1,0 +1,32 @@
+.header {
+  padding-top: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), #fff) !important;
+}
+
+.block-left {
+  padding: 100px 0 0 40px !important;
+}
+
+.block-left input {
+  margin-top: 30px;
+}
+
+.block-left h2 {
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.block-left h4 {
+  opacity: 0.6;
+  font-size: 22px;
+}
+
+.write img {
+  width: 100%;
+  display: block;
+}
+
+.block-left input {
+  font-size: 20px;
+}

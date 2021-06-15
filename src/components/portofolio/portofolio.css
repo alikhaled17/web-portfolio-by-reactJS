@@ -1,0 +1,23 @@
+.portofolio {
+  margin: 25px 0 35px 0 !important;
+  margin: auto;
+  display: block;
+  padding: 15px !important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.portofolio-title {
+  opacity: 0.8;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.portofolio-title::after {
+  content: "";
+  display: block;
+  margin: 5px 0 0 5px;
+  width: 30px;
+  border: 1px solid #000;
+  opacity: 0.8;
+}
